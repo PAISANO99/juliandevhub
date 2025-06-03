@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julian David - Ingeniería de Software</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #cfd8dc;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ffca28;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+        }
+
+        p,
+        li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: square inside;
+            padding-left: 0;
+        }
+
+        a {
+            color: #4fc3f7;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #81d4fa;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Julian David</h1>
+        <p>Estudiante de Ingeniería de Software | Apasionado por la tecnología y el desarrollo</p>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy Julian David suaza, estudiante de Ingeniería de Software. Me encanta resolver problemas, aprender
+            nuevas tecnologías y construir aplicaciones que realmente ayuden a las personas.</p>
+
+        <h2>Proyectos</h2>
+        <ul>
+            <li><strong>Gestor de Usuarios</strong> – App Java con GUI y cifrado de contraseñas.</li>
+            <li><strong>Simulador de Algoritmos</strong> – Visualización gráfica de Burbuja, Selección e Inserción.</li>
+            <li><strong>Mi Página Web</strong> – Portafolio personal creado con HTML/CSS.</li>
+        </ul>
+
+        <h2>Contacto</h2>
+        <p>Puedes escribirme a: <a href="davidjulian632@gmail.com">davidjulain632@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Julian David. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
